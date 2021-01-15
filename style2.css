@@ -1,0 +1,657 @@
+/*MEDIA QUERIES_RESPONSIVE_DESIGN*/
+@media screen and (min-width:1441px) {
+    #element_footer {
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (max-width:1301px) {
+    .hebergement {
+        width: 27%;
+    }
+
+    .infos_six_hebergement {
+        width: 95%;
+    }
+
+    #logo_search {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    #part2 {
+        height: auto;
+
+    }
+
+    /*HEBERGEMENT_A_MARSEILLE*/
+    #titre_hebergement_marseille {
+        justify-content: center;
+        font-size: 1.6em;
+    }
+
+    #hebergement_marseille {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .hebergement {
+        width: 29%;
+    }
+
+    /*LES PLUS POPULAIRE*/
+    #les_plus_populaire {
+
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+        order: -1;
+    }
+
+    #titre_hebergement_populaire {
+
+        justify-content: center;
+        font-size: 1.4em;
+    }
+
+    #chart_line {
+        padding-left: 20px;
+        font-size: 1.2em;
+    }
+
+    #hebergement_populaire {
+        display: flex;
+    }
+
+    /*ACTIVITES MARSEILLE*/
+
+
+    #activite_marseille {
+        width: 90%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    #activite_vieux_port {
+        width: 48%;
+        height: 100%;
+        order: -1;
+        margin: 0;
+        margin-bottom: 20px;
+
+
+    }
+
+    #image_vieux_port {
+        height: 170px;
+    }
+
+    #activite_pomegues_frioul {
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-bottom: 20px;
+
+    }
+
+    #activite_fort_de_pomegues {
+        width: 48%;
+        height: 100%;
+        margin-right: 20px;
+    }
+
+    #image_fort_pomegues {
+        height: 170px;
+    }
+
+    #activite_iles_frioul {
+        width: 48%;
+        height: 50%;
+    }
+
+    #image_iles_frioul {
+        height: 170px;
+    }
+
+    #activite_parc_calanques {
+        width: 48%;
+        height: 100%;
+        margin: 0;
+        order: -1;
+        margin-bottom: 10px;
+
+
+    }
+
+    #image_parc_national_calanques {
+        height: 170px;
+    }
+
+    #activite_notre_dame_et_parc_longchamp {
+
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+
+
+    }
+
+    #notre_dame {
+        width: 48%;
+        height: 50%;
+
+    }
+
+    #image_notre_dame {
+        height: 170px;
+    }
+
+    #parc_longchamp {
+        width: 48%;
+        height: 50%;
+
+
+    }
+}
+
+#image_parc_longchamp {
+    height: 170px;
+
+}
+
+@media screen and (max-width:1025px) {
+    .hebergement {
+        width: 45%
+    }
+
+    #hebergement_populaire {
+
+        justify-content: space-around;
+
+
+    }
+
+    .hebergement_populaire {
+
+        width: 280px;
+
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    #hebergement_populaire {
+
+        flex-wrap: wrap;
+
+    }
+
+    .hebergement_populaire {
+
+        width: 400px;
+
+    }
+
+    .infos_trois_hebergement {
+
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .hebergement_populaire {
+
+        width: 390px;
+
+    }
+
+    footer {
+        padding: 0;
+
+    }
+
+    #element_footer {
+        width: auto;
+        flex-direction: column;
+        margin: auto;
+        padding-left: 20px;
+        padding-bottom: 50px;
+
+    }
+
+    #nos_hebergements {
+        padding: 0;
+    }
+
+    #a_propos,
+    #nos_hebergements,
+    #assistance {
+        line-height: 1.9em;
+    }
+
+    #liste_a_propos,
+    #liste_nos_hebergements,
+    #liste_assistance {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width:888px) {
+    .hebergement {
+        width: 44%
+    }
+
+    .hebergement_populaire {
+
+        width: 380px;
+
+    }
+}
+
+@media screen and (max-width:855px) {
+    .hebergement_populaire {
+
+        width: 600px;
+
+    }
+
+    .infos_trois_hebergement {
+        margin: auto;
+    }
+
+    .hebergement {
+        width: 43%
+    }
+
+    .menu_naviguation {
+
+        width: 100%;
+        justify-content: space-between;
+        text-align: center;
+
+
+    }
+
+    header {
+
+        display: block;
+        margin: 0;
+        width: 100%;
+        position: relative;
+    }
+
+    a.nav_hebergement {
+        border-top: 3px solid white;
+        border-bottom: 3px solid #0065FC;
+        width: 50%;
+        font-size: 1.1em;
+    }
+
+    a.nav_activites {
+        width: 50%;
+        font-size: 1.1em;
+        border-bottom: 3px solid rgb(216, 216, 216);
+    }
+
+    a.nav_inscription {
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        border: none;
+
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .hebergement_populaire {
+
+        width: 500px;
+
+    }
+}
+
+@media screen and (max-width:640px) {
+    .hebergement {
+        width: 43%;
+    }
+
+    #activite_vieux_port {
+        width: 100%;
+        order: -1;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    #activite_parc_calanques {
+        width: 100%;
+        margin: 0;
+        order: -1;
+        margin-bottom: 20px;
+
+
+    }
+
+    #activite_fort_de_pomegues {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    #activite_iles_frioul {
+        width: 100%;
+
+    }
+
+    #activite_notre_dame_et_parc_longchamp {
+
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    #notre_dame {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    #parc_longchamp {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:634px) {
+    .hebergement {
+        width: 42%
+    }
+
+}
+
+@media screen and (max-width:570px) {
+    .hebergement_populaire {
+
+        width: 90%;
+
+    }
+}
+
+@media screen and (max-width:555px) {
+    .hebergement {
+        width: 41%;
+    }
+
+    .nom_section_filtre {
+        font-size: 1.2em;
+        margin-right: 300px;
+    }
+
+    #economique {
+
+        margin: 0;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        font-size: 0.8em;
+    }
+
+    .icon-container1,
+    .icon-container2,
+    .icon-container3,
+    .icon-container4 {
+        font-size: 1.3em;
+    }
+
+    #familial {
+        margin: 0;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        font-size: 0.8em;
+    }
+
+    #romantique {
+        margin: 0;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        font-size: 0.8em;
+    }
+
+    #animaux_autorises {
+        margin: 0;
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    #titre_hebergement_marseille {
+        width: 100%;
+        font-size: 1.2em;
+        padding: 0;
+
+    }
+
+    .nom_hebergement_marseille {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+
+    }
+
+    .infos_prix_hebergement {
+        font-size: 1.2em;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    #titre_hebergement_populaire {
+        font-size: 1.2em;
+    }
+
+    .hebergement {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+/*IPHONE 8*/
+@media screen and (max-width:375px) {
+    #part2 {
+        width: 100%;
+
+    }
+
+    #logo_reservia {
+        padding-left: 20px;
+    }
+
+    a.nav_inscription {
+        top: -5px;
+    }
+
+    a.nav_hebergement,
+    a.nav_activites {
+        height: 20px;
+    }
+
+    h1 {
+        margin: 0;
+        margin-left: 16px;
+        width: 300px
+    }
+
+    .search {
+        width: 90%;
+        margin: auto;
+        position: relative;
+
+        display: flex;
+        justify-content: ;
+
+
+    }
+
+    input {
+        width: 250px;
+
+    }
+
+    #search_bar {
+        width: 280px;
+
+    }
+
+    .rechercher_button {
+
+        display: none;
+
+    }
+
+    i.fas.fa-search {
+        display: inline;
+        position: absolute;
+        background-color: #0065FC;
+        border-radius: 15px;
+        right: 0px;
+        top: -2px;
+        padding: 17px 19px;
+    }
+
+    .fas.fa-search:before {
+        color: white;
+    }
+
+    .filtre-name {
+        font-size: 1.em;
+    }
+
+    #infos {
+
+        position: relative;
+        bottom: 10px;
+        padding: 5px 10px;
+
+    }
+
+    .point_information {
+        position: relative;
+        padding: 15px 0;
+        font-size: 1.1em;
+
+    }
+
+    #les_plus_populaire {
+
+        border-radius: 0;
+    }
+
+    .infos_trois_hebergement {
+
+        margin: 0;
+        padding-left: 15px;
+        text-align: left;
+    }
+
+    .stars_rate {
+        font-size: 0.9em;
+    }
+
+    .infos_prix_hebergement {
+        padding-bottom: 5px;
+    }
+
+    .nom_hebergement_populaire {
+
+        padding: 10px 0 0 0;
+        margin: 0;
+    }
+
+    .infos_prix_hebergement_populaire {
+
+        padding: 10px 0 30px 0;
+
+    }
+
+    .infos_six_hebergement {
+
+        text-align: left;
+    }
+
+    #hebergement_marseille {
+        background-color: white;
+    }
+
+    #titre_hebergement_populaire {
+        justify-content: space-between;
+        width: auto;
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+
+    #titre_hebergement_marseille {
+        justify-content: left;
+        padding: 10px;
+    }
+
+    #element_footer {
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+
+    #liste_a_propos,
+    #liste_nos_hebergements,
+    #liste_assistance {
+        margin: 0;
+
+    }
+
+    #activite_parc_calanques {
+        order: 3;
+    }
+
+    #activite_vieux_port,
+    #activite_parc_calanques,
+    #activite_fort_de_pomegues,
+    #activite_iles_frioul,
+    #notre_dame,
+    #parc_longchamp {
+
+        height: 190px;
+
+    }
+
+    #image_parc_national_calanques,
+    #image_vieux_port,
+    #image_fort_pomegues,
+    #image_iles_frioul,
+    #image_parc_national_calanques,
+    #image_notre_dame,
+    #image_parc_longchamp {
+        height: 135px;
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+    #activite_notre_dame_et_parc_longchamp {
+        order: 4;
+
+    }
+
+    .titre_image_activite {
+
+        padding-top: 15px;
+    }
+}
