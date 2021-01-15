@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+#main_wrapper {
+    font-family: 'Raleway';
+    margin: auto;
+    width: 100%;
+
+}
+
+a:visited {
+    color: black;
+}
+
+/*HEADER-LOGO-NAV_RECHERCHE ET FILTRES*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+/*LOGO */
+#logo_reservia {
+    width: 100px;
+    height: 37px;
+    margin-right: auto;
+    margin-top: 16px;
+    object-fit: cover;
+
+}
+
+/*MENU NAVIGUATION*/
+
+.menu_naviguation {
+    display: flex;
+}
+
+a.nav_hebergement {
+    padding: 30px 20px 30px 20px;
+    color: #0065FC;
+    font-size: 14px;
+    border-top: 3px solid #0065FC;
+
+}
+
+a.nav_hebergement:hover,
+a.nav_activites:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+a.nav_activites {
+    padding: 30px 20px 30px 20px;
+    color: black;
+    font-size: 14px;
+    border-top: 3px solid white;
+}
+
+a.nav_inscription {
+    display: flex;
+    padding: 30px 20px 30px 20px;
+    color: #0065FC;
+    font-weight: bold;
+    font-size: 14px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+a.nav_inscription:hover {
+    box-shadow: 0 5px 5px grey;
+}
+
+h1 {
+    margin: auto;
+    padding: 20px 0 0 0;
+    font-size: 20px;
+    width: 90%;
+
+}
+
+.sous_titre_header {
+    padding: 5px 0 20px 0;
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+}
+
+/*BARRE DE RECHERCHE*/
+
+.search {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+span.place-icon {
+    padding: 12px 16px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+
+input {
+    position: relative;
+    width: 210px;
+    height: 45px;
+    padding: 0 25px;
+    border: 2px solid #F2F2F2;
+    border-right: 0;
+}
+
+.rechercher_button {
+    background-color: #0065FC;
+    color: white;
+    padding-left: 9px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    font-size: 17px;
+    padding-top: 1px;
+    height: 45px;
+    border-radius: 0 10px 10px 0;
+    border-color: #0065FC;
+    width: fit-content;
+}
+
+.rechercher_button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.rechercher {
+    margin: 0;
+    padding-top: 11px;
+
+}
+
+::placeholder {
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding-left: 0px;
+    text-align: left;
+}
+
+i.fas.fa-search {
+    display: none;
+}
+
+/*FILTRES*/
+.section_filtres {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filtre-name {
+    padding: 10px 15px;
+    height: fit-content;
+}
+
+/*Filtre Economique*/
+#economique {
+    border: 2px solid #E4E4E4;
+    border-radius: 25px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.icon-container1 {
+
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 1em;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+/*Filtre Familial*/
+#familial {
+    border: 2px solid #E4E4E4;
+    border-radius: 25px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.icon-container2 {
+
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 13px;
+    font-size: 1em;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+/*Filtre Romantique*/
+#romantique {
+    border: 2px solid #E4E4E4;
+    border-radius: 25px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.icon-container3 {
+
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 1em;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+/*Filtre Animaux autorisés*/
+#animaux_autorises {
+    border: 2px solid #E4E4E4;
+    border-radius: 25px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.icon-container4 {
+
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 1em;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.filtre-name:hover {
+    color: rgb(47, 108, 223);
+}
+
+/*POINT INFORMATION*/
+
+.point_information {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#infos {
+    border: 2px solid #E4E4E4;
+    font-size: 0.7em;
+    padding: 5px 7px;
+    border-radius: 30px;
+    color: #0065FC;
+    margin-right: 10px;
+}
+
+.infos {
+    font-size: 0.9em;
+
+}
+
+
+/*PARTIT 2 - HEBERGEMENT A MARSEILLE ET HEBERGEMENTS LES PLUS POPULAIRE*/
+
+#part2 {
+    background-color: #ffffff;
+    height: 550px;
+    width: 90%;
+    margin: auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#titre_hebergement_marseille {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0 0 30px;
+    height: 40px;
+    font-size: 1em;
+
+
+}
+
+.nom_hebergement_marseille {
+    font-size: 1.2em;
+}
+
+.nom_hebergement_populaire {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+
+#afficher_plus {
+    width: 90%;
+    padding: 0 0 0 30px;
+    font-weight: bold;
+    display: flex;
+
+}
+
+#titre_hebergement_populaire {
+
+    font-size: 1em;
+    font-weight: bold;
+    padding: 30px 0 20px 30px;
+    margin-bottom: 10px;
+    display: flex;
+    height: 40px;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#chart_line {
+    font-size: 1.6em;
+}
+
+/*HEBERGEMENT A MARSEILLE*/
+#hebergement_marseille {
+
+    background-color: #F2F2F2;
+    width: 64%;
+    height: 100%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#hebergement_ligne_1_et_2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.hebergement {
+    width: 28%;
+    height: 180px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 0 5px 10px rgb(143, 143, 143);
+    transition: 0.6s;
+
+}
+
+.hebergement:hover {
+    transform: scale(1.1);
+}
+
+/*SETUP IMAGES DES HEBREGEMENTS -  LES 6 HEBERGEMENENTS A MARSEILLE*/
+.image_six_hebergement {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    border: 1px solid white;
+}
+
+/*SETUP INFORMATIONS Nom AUBERGE prix NUIT Etoiles- LES 6 HEBERGEMENTS A MARSEILLE*/
+.infos_six_hebergement {
+    width: 90%;
+    margin-top: -18px;
+    margin-left: 10px;
+    font-size: 0.7em;
+}
+
+.infos_prix_hebergement {
+    margin-top: -15px;
+}
+
+/*HEBERGEMENTS LES PLUS POPULAIRES*/
+#les_plus_populaire {
+    background-color: #F2F2F2;
+    width: 34%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.trois_hebergements {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.hebergement_populaire {
+    width: 80%;
+    height: 130px;
+    padding: 2px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    box-shadow: 0 5px 10px rgb(143, 143, 143);
+    transition: 0.6s;
+}
+
+.hebergement_populaire:hover {
+    transform: scale(1.1);
+}
+
+/*SETUP IMAGES DES HEBREGEMENTS- LES 3 HEBERGEMENTS LES PLUS POPULAIRES*/
+.image_hebergement_populaire {
+    height: auto;
+    width: 40%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+}
+
+/*SETUP INFORMATION Nom AUBERGE prix NUIT Etoile- LES 3 HEBERGEMENTS LES PLUS POPULAIRE*/
+.infos_trois_hebergement {
+
+    margin-left: 5px;
+    width: auto;
+    height: auto;
+    font-size: 0.7em;
+}
+
+.infos_prix_hebergement_populaire {
+    margin: 0;
+    padding: 10px 0 30px 0;
+}
+
+/*SETUP ETOILES*/
+
+.stars_rate {
+    color: rgb(1, 127, 245);
+    font-size: 1.1em;
+}
+
+#grey_star {
+    color: rgb(209, 207, 207);
+}
+
+#grey_star_1,
+#grey_star_2,
+#grey_star_3,
+#grey_star_4,
+#grey_star_5,
+#grey_star_6,
+#grey_star_7 {
+    color: rgb(209, 207, 207);
+}
+
+/*ACTIVITE A MARSEILLE*/
+#activite_marseille {
+    height: 465px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#titre_activite_marseille {
+
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.titre_image_activite {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 10px 10px 10px 15px;
+}
+
+/*VIEUX PORT*/
+#activite_vieux_port {
+    width: 25%;
+    height: 460px;
+    box-shadow: 0 6px 7px 0 rgb(209, 209, 209);
+    border-radius: 25px;
+    transition: 0.4s;
+    margin-right: 20px;
+}
+
+#activite_vieux_port:hover {
+    transform: scale(1.1);
+}
+
+#image_vieux_port {
+    height: 410px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+
+}
+
+/* ACTIVITE FORT POMEGUES ET ILES FRIOUL*/
+#activite_pomegues_frioul {
+    width: 25%;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+/* FORT POMEGUES*/
+#activite_fort_de_pomegues {
+    height: 240px;
+    width: 100%;
+    box-shadow: 0 6px 7px 0 rgb(209, 209, 209);
+    border-radius: 25px;
+    transition: 0.4s;
+
+}
+
+#activite_fort_de_pomegues:hover {
+    transform: scale(1.1);
+}
+
+#image_fort_pomegues {
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+/* ILES FRIOUL*/
+#activite_iles_frioul {
+    height: 180px;
+    width: 100%;
+    box-shadow: 0 6px 7px 0 rgb(209, 209, 209);
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+#activite_iles_frioul:hover {
+    transform: scale(1.1);
+}
+
+#image_iles_frioul {
+    height: 130px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+
+}
+
+/* PARC CALANQUES*/
+#activite_parc_calanques {
+    width: 25%;
+    height: 460px;
+    box-shadow: 0 6px 7px 0 rgb(209, 209, 209);
+    border-radius: 25px;
+    transition: 0.4s;
+    margin-right: 20px;
+
+}
+
+#activite_parc_calanques:hover {
+    transform: scale(1.1);
+}
+
+#image_parc_national_calanques {
+    height: 410px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+
+}
+
+/* ACTIVITE NOTRE DAME ET PARC LONGCHAMP*/
+#activite_notre_dame_et_parc_longchamp {
+    width: 25%;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* NOTRE DAME*/
+#activite_notre_dame {
+    width: 100%;
+    height: 180px;
+    box-shadow: 0 6px 7px 0 rgb(209, 209, 209);
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+#activite_notre_dame:hover {
+    transform: scale(1.1);
+}
+
+#image_notre_dame {
+    height: 130px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+/* /* PARC LONGCHAMPS */
+#parc_longchamp {
+    width: 100%;
+    height: 240px;
+    box-shadow: 0 6px 7px 0 rgb(209, 209, 209);
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+#parc_longchamp:hover {
+    transform: scale(1.1);
+}
+
+#image_parc_longchamp {
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #F2F2F2;
+    margin-top: 50px;
+    padding: 30px;
+    width: 100%;
+}
+
+#element_footer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+
+
+}
+
+#a_propos,
+#nos_hebergements,
+#assistance {
+    line-height: 2.2em;
+}
+
+#nos_hebergements {
+    padding-left: 150px;
+    padding-right: 150px;
+}
