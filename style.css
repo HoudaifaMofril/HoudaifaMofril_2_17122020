@@ -615,11 +615,10 @@ i.fas.fa-search {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 /* NOTRE DAME*/
-#notre_dame {
+#activite_notre_dame {
     width: 100%;
     height: 180px;
     box-shadow: 0 6px 7px 0 rgb(209, 209, 209);
@@ -627,7 +626,7 @@ i.fas.fa-search {
     transition: 0.4s;
 }
 
-#notre_dame:hover {
+#activite_notre_dame:hover {
     transform: scale(1.1);
 }
 
@@ -638,7 +637,7 @@ i.fas.fa-search {
     border-radius: 25px 25px 0 0;
 }
 
-/* PARC LONGCHAMPS*/
+/* /* PARC LONGCHAMPS */
 #parc_longchamp {
     width: 100%;
     height: 240px;
@@ -657,6 +656,7 @@ i.fas.fa-search {
     object-fit: cover;
     border-radius: 25px 25px 0 0;
 }
+
 
 /*FOOTER*/
 
