@@ -18,6 +18,7 @@
     #logo_search {
         display: none;
     }
+
 }
 
 @media screen and (max-width:1280px) {
@@ -144,7 +145,7 @@
 
     }
 
-    #notre_dame {
+    #activite_notre_dame {
         width: 48%;
         height: 50%;
 
@@ -160,11 +161,11 @@
 
 
     }
-}
 
-#image_parc_longchamp {
-    height: 170px;
+    #image_parc_longchamp {
+        height: 170px;
 
+    }
 }
 
 @media screen and (max-width:1025px) {
@@ -175,13 +176,6 @@
     #hebergement_populaire {
 
         justify-content: space-around;
-
-
-    }
-
-    .hebergement_populaire {
-
-        width: 280px;
 
     }
 
@@ -209,11 +203,6 @@
 }
 
 @media screen and (max-width:900px) {
-    .hebergement_populaire {
-
-        width: 390px;
-
-    }
 
     footer {
         padding: 0;
@@ -262,7 +251,7 @@
 @media screen and (max-width:855px) {
     .hebergement_populaire {
 
-        width: 600px;
+        width: 90%;
 
     }
 
@@ -314,14 +303,6 @@
 
 }
 
-@media screen and (max-width:700px) {
-    .hebergement_populaire {
-
-        width: 500px;
-
-    }
-}
-
 @media screen and (max-width:640px) {
     .hebergement {
         width: 43%;
@@ -363,7 +344,7 @@
         margin: 0;
     }
 
-    #notre_dame {
+    #activite_notre_dame {
         width: 100%;
         margin-bottom: 20px;
 
@@ -379,14 +360,6 @@
         width: 42%
     }
 
-}
-
-@media screen and (max-width:570px) {
-    .hebergement_populaire {
-
-        width: 90%;
-
-    }
 }
 
 @media screen and (max-width:555px) {
@@ -496,11 +469,6 @@
         width: 90%;
         margin: auto;
         position: relative;
-
-        display: flex;
-        justify-content: ;
-
-
     }
 
     input {
@@ -534,7 +502,7 @@
     }
 
     .filtre-name {
-        font-size: 1.em;
+        font-size: 1em;
     }
 
     #infos {
@@ -625,7 +593,7 @@
     #activite_parc_calanques,
     #activite_fort_de_pomegues,
     #activite_iles_frioul,
-    #notre_dame,
+    #activite_notre_dame,
     #parc_longchamp {
 
         height: 190px;
